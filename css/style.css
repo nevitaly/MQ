@@ -235,10 +235,10 @@ a {
     color: #b59f5b;
   }
 
-  .column {
-    margin: 0;
-    color: #ffffff;
-  }
+ .post-caption-white {
+  margin: 0;
+  color: #ffffff;
+}
 
   .page-main {
     display: flex;
@@ -888,9 +888,9 @@ a {
       margin-top: 51px;
     }
 
-    .tags {
-      margin-left: 19px;
-    }
+   .tag-item + .tag-item {
+    margin-left: 14px;
+  }
 
     .post-meta {
       margin-bottom: 27px;
