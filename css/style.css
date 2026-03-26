@@ -206,9 +206,6 @@ a {
     text-decoration: underline solid #b59f5b;
   }
   
-  .tag-link:hover {
-    text-decoration: underline solid #b59f5b;
-  }
 
   .trend-post-cheese {
     background-image: url(../images/trend2.jpg);
@@ -532,7 +529,7 @@ a {
   .card {
     display: flex;
     flex-direction: column;
-    width: calc(33.33% - 62px);
+    width: calc((100% - 124px) / 3);
   }
 
   .card-pic {
@@ -923,7 +920,7 @@ a {
     }
 
     .card {
-      width: calc((100% - 80px)/2);
+      width: calc((100% - 28px) / 2);
     }
 
     .features {
